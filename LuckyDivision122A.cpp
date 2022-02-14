@@ -24,6 +24,7 @@ bool checkDivisor(int n, int divisible[]) {
 
 int main() {
     int n;
+    //Chọn các tổ hợp số trong khoảng 1 -> 1000 để xem có chia hết cho các số theo giả thiết là lucky hay không ?
     int divisible[12] = {44, 47, 74, 77, 444, 447, 474, 477, 744, 747, 774, 777};
     string input;
     cin >> n;
