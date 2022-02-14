@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// Tổng các vector bằng 0 thì cân bằng
 int main() {
     int startX = 0, startY = 0, startZ = 0;
     int point;
