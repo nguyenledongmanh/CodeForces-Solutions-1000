@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
-
+//ý tưởng sẽ là 
+// nếu n = 5
+// flag = 1, a[n + 1]{0} để kiểm tra xem qua đó đã được duyệt chưa
+// 1 2 3 4 5
+// lần 1 : 1 2 4 4
+// lần 2 : 1 2 4
+// lần 3 : 1 3
+// lần 4 : 2 (vậy điều kiện khi n = 2 thì sẽ dừng lại)
 int main() {
     int test;
     cin >> test;
