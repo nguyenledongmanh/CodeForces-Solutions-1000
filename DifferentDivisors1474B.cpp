@@ -1,7 +1,9 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-
+// ý tưởng, số mà càng chia được cho nhiều số thì số đó càng lớn
+// dựa vào giả thiết, ít nhất kết quả phải chia được cho 4 số. Nên do đó, ta có 1 và chính nó là đã có 2 ước, vậy cần 2 ước nữa, để có 2 ước, thì 2 số nhân
+// với nhau thì 2 số đều là số nguyên tố, và cách nhau 1 khoảng >= d.
 bool checkPrime(int numCheck) {
     for (int i = 2; i <= sqrt(numCheck); i++)
         if (numCheck % i == 0)
