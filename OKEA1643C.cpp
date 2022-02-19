@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// Ý tưởng là cứ tích hai số nhân với nhau là số chẵn thì sẽ thoả mãn điều kiện cần
 int main() {
     int testcase;
     cin >> testcase;
