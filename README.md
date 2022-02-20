@@ -1,2 +1,2 @@
 # CodeForces-Solutions-1000
-  - Target: 40 bài
+  - Các bài giải từ 1000 *
